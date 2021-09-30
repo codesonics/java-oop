@@ -11,7 +11,6 @@ import static org.junit.jupiter.api.Assertions.*;
 class BubbleSortTest {
 
     @Test
-    @DisplayName("버블소트 - 리스트를 넣으면 정렬된 결과를 보여준다.")
     void sort() {
         //Given
         BubbleSort<Integer> bubbleSort = new BubbleSort<>();
