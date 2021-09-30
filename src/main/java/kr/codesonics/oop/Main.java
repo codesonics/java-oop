@@ -12,5 +12,6 @@ public class Main {
         Sort<Integer> sort = new JavaSort<>();
         List arList = Arrays.asList(args);
         System.out.println("[Result] " + sort.sort(arList));
+        //이슈변경
     }
 }
